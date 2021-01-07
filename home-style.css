@@ -75,3 +75,44 @@ header {
 .google-logo-container {
     padding-top: 159px;
 }
+
+.search-bar {
+    display: flex;
+    width: 582px;
+    height: 44px;
+    border: solid 1px rgb(223, 225, 229);
+    border-radius: 24px;
+    margin: 0 auto;
+    position: relative;
+    top: 27px;
+    justify-items: space-around;
+}
+
+.search-bar:hover{
+    box-shadow: 0 0 6px rgb(212, 211, 211);
+}
+
+.search-logo {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: rgb(154, 160, 166);
+    align-self: center;
+    position: relative;
+    left: 14px;
+    
+
+}
+
+.search-text-input {
+    border: none;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    width: 90%;
+    position: relative;
+    left: 26px;
+}
+
+.search-text-input:focus {
+    outline: none;
+}
