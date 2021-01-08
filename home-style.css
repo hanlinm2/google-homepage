@@ -1,3 +1,6 @@
+body {
+    max-height: 100vh;
+}
 .top-right-nav{
     display: inline-flex;
     flex-direction: row;
@@ -20,6 +23,10 @@ body {
     position: relative;
     top: 3px;
     right: 3px;
+}
+
+.profile_picture a{
+    opacity: 1 !important;
 }
 
 a:link, a:visited {
@@ -100,8 +107,6 @@ header {
     align-self: center;
     position: relative;
     left: 14px;
-    
-
 }
 
 .search-text-input {
@@ -116,3 +121,35 @@ header {
 .search-text-input:focus {
     outline: none;
 }
+
+.submit-buttons {
+    display:flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.submit-buttons button {
+    background-image: -webkit-linear-gradient(top,#f7f7f7,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #222;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.submit-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
