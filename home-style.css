@@ -1,5 +1,6 @@
 body {
     max-height: 100vh;
+    font-family: arial, sans-serif;
 }
 .top-right-nav{
     display: inline-flex;
@@ -15,9 +16,6 @@ body {
     right: 17px;
 }
 
-body {
-    font-family: arial, sans-serif;
-}
 
 .profile_picture {
     position: relative;
@@ -153,3 +151,58 @@ header {
     color: #222;
 }
 
+footer {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    border-top: solid 1px rgb(218, 220, 224);
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+}
+
+footer a{
+    font-size: 14px !important;
+    opacity: 0.55 !important;
+}
+
+.carbon a {
+    display: inline;
+}
+
+.carbon img {
+    display: inline;
+    width: 12px;
+    height: 14px;
+}
+
+
+.advertising-link {
+    position: relative;
+    left:  22px;
+}
+.business-link {
+    position: relative;
+    left:  49px;
+}
+.how-link {
+    position: relative;
+    left:  76px;
+}
+.carbon {
+    position: relative;
+    left:  365px;
+}
+.privacy-link {
+    position: relative;
+    left:  790px;
+}
+.terms-link {
+    position: relative;
+    left:  817px;
+}
+.settings-link {
+    position: relative;
+    left:  844px;
+}
