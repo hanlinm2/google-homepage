@@ -171,6 +171,7 @@ footer a{
 
 .carbon a {
     display: inline;
+    align-self: center;
 }
 
 .carbon img {
@@ -180,29 +181,27 @@ footer a{
 }
 
 
-.advertising-link {
-    position: relative;
-    left:  22px;
-}
-.business-link {
-    position: relative;
-    left:  49px;
-}
-.how-link {
-    position: relative;
-    left:  76px;
-}
 .carbon {
-    position: relative;
-    left:  365px;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .bottom-right-nav {
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
     width: 220px;
     float: right;
     position: absolute;
     right: 0;
     margin-right: 10px;
+}
+
+.bottom-left-nav {
+    justify-self: start;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 330px;
+    margin-left: 10px;
+    position: absolute;
+
 }
