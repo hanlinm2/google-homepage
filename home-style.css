@@ -1,5 +1,6 @@
 body {
     max-height: 100vh;
+    max-width: 100vw;
     font-family: arial, sans-serif;
 }
 .top-right-nav{
@@ -160,6 +161,7 @@ footer {
     border-top: solid 1px rgb(218, 220, 224);
     align-items: center;
     background-color: rgb(242, 242, 242);
+    left: 0;
 }
 
 footer a{
@@ -194,15 +196,13 @@ footer a{
     position: relative;
     left:  365px;
 }
-.privacy-link {
-    position: relative;
-    left:  790px;
-}
-.terms-link {
-    position: relative;
-    left:  817px;
-}
-.settings-link {
-    position: relative;
-    left:  844px;
+
+.bottom-right-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
 }
