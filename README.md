@@ -4,4 +4,4 @@ This is a project I am doing to learn web development while following tutorials 
 
 I  learned how to use the Dev tools in browsers to inspect elements and use HTML and CSS to position and style different the elements.
 
-The final project result is linked here: [Google Homepagee](http://hanlinm2.github.io/google-homepage)
+The final project result is linked here: [Google Homepage](http://hanlinm2.github.io/google-homepage)
